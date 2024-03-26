@@ -1,0 +1,2 @@
+# mongoimport --uri 'mongodb+srv://praddy:praddy@xflix-node.zzn0u.mongodb.net/xflix?retryWrites=true&w=majority' --drop --collection videos --file data/xflix_videos.json
+mongoimport --uri "mongodb://xflix-node1-shard-00-00.pmo8i.mongodb.net:27017,xflix-node1-shard-00-01.pmo8i.mongodb.net:27017,xflix-node1-shard-00-02.pmo8i.mongodb.net:27017/?replicaSet=atlas-g5x8ey-shard-0" --ssl --authenticationDatabase admin --username umanngm17 --password umangm1709 --drop --collection videos --file data/xflix.videos.json
